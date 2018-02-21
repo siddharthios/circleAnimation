@@ -12,6 +12,10 @@
 		356E6AD9203D66230020CF86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356E6AD7203D66230020CF86 /* Main.storyboard */; };
 		356E6ADB203D66240020CF86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 356E6ADA203D66240020CF86 /* Assets.xcassets */; };
 		356E6ADE203D66240020CF86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356E6ADC203D66240020CF86 /* LaunchScreen.storyboard */; };
+		356E6AE6203D80BB0020CF86 /* Reachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356E6AE5203D80BB0020CF86 /* Reachable.swift */; };
+		35EE2CF4203D97C1006C7C90 /* UIColor+CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EE2CF3203D97C1006C7C90 /* UIColor+CustomColor.swift */; };
+		35EE2CF6203D9D36006C7C90 /* circle_mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 35EE2CF5203D9D36006C7C90 /* circle_mask.png */; };
+		72F1D028B8AA3815BBAC0C09 /* Pods_circleAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C456CB1C84DEEE0F52A938A4 /* Pods_circleAnimation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,12 @@
 		356E6ADA203D66240020CF86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		356E6ADD203D66240020CF86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		356E6ADF203D66240020CF86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		356E6AE5203D80BB0020CF86 /* Reachable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachable.swift; sourceTree = "<group>"; };
+		35EE2CF3203D97C1006C7C90 /* UIColor+CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColor.swift"; sourceTree = "<group>"; };
+		35EE2CF5203D9D36006C7C90 /* circle_mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_mask.png; sourceTree = "<group>"; };
+		5F6F86C07E6D7EFCEFD7E2DE /* Pods-circleAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circleAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-circleAnimation/Pods-circleAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		C456CB1C84DEEE0F52A938A4 /* Pods_circleAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_circleAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5EF6EB4ECAFEC5010C1EA72 /* Pods-circleAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-circleAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-circleAnimation/Pods-circleAnimation.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72F1D028B8AA3815BBAC0C09 /* Pods_circleAnimation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				356E6AD2203D66230020CF86 /* circleAnimation */,
 				356E6AD1203D66230020CF86 /* Products */,
+				4C2EEF44579B4DEB7C66F817 /* Pods */,
+				940E9E95BE8F77C72BF3F965 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +69,32 @@
 			children = (
 				356E6AD3203D66230020CF86 /* AppDelegate.swift */,
 				356E6AD5203D66230020CF86 /* ViewController.swift */,
+				35EE2CF3203D97C1006C7C90 /* UIColor+CustomColor.swift */,
+				356E6AE5203D80BB0020CF86 /* Reachable.swift */,
+				35EE2CF5203D9D36006C7C90 /* circle_mask.png */,
 				356E6AD7203D66230020CF86 /* Main.storyboard */,
 				356E6ADA203D66240020CF86 /* Assets.xcassets */,
 				356E6ADC203D66240020CF86 /* LaunchScreen.storyboard */,
 				356E6ADF203D66240020CF86 /* Info.plist */,
 			);
 			path = circleAnimation;
+			sourceTree = "<group>";
+		};
+		4C2EEF44579B4DEB7C66F817 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F6F86C07E6D7EFCEFD7E2DE /* Pods-circleAnimation.debug.xcconfig */,
+				F5EF6EB4ECAFEC5010C1EA72 /* Pods-circleAnimation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		940E9E95BE8F77C72BF3F965 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C456CB1C84DEEE0F52A938A4 /* Pods_circleAnimation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 356E6AE2203D66240020CF86 /* Build configuration list for PBXNativeTarget "circleAnimation" */;
 			buildPhases = (
+				B21C0EDD5BB70137C142CEC3 /* [CP] Check Pods Manifest.lock */,
 				356E6ACC203D66230020CF86 /* Sources */,
 				356E6ACD203D66230020CF86 /* Frameworks */,
 				356E6ACE203D66230020CF86 /* Resources */,
+				64C0703FD3E1B80CBFBBBBE7 /* [CP] Embed Pods Frameworks */,
+				9E3045EF19A92F1B0F8C0238 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,17 +162,74 @@
 				356E6ADE203D66240020CF86 /* LaunchScreen.storyboard in Resources */,
 				356E6ADB203D66240020CF86 /* Assets.xcassets in Resources */,
 				356E6AD9203D66230020CF86 /* Main.storyboard in Resources */,
+				35EE2CF6203D9D36006C7C90 /* circle_mask.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64C0703FD3E1B80CBFBBBBE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-circleAnimation/Pods-circleAnimation-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YouTubePlayer/YouTubePlayer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YouTubePlayer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-circleAnimation/Pods-circleAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E3045EF19A92F1B0F8C0238 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-circleAnimation/Pods-circleAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B21C0EDD5BB70137C142CEC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-circleAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		356E6ACC203D66230020CF86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				356E6AE6203D80BB0020CF86 /* Reachable.swift in Sources */,
 				356E6AD6203D66230020CF86 /* ViewController.swift in Sources */,
+				35EE2CF4203D97C1006C7C90 /* UIColor+CustomColor.swift in Sources */,
 				356E6AD4203D66230020CF86 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,10 +365,13 @@
 		};
 		356E6AE3203D66240020CF86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F6F86C07E6D7EFCEFD7E2DE /* Pods-circleAnimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F65GNDYW8;
 				INFOPLIST_FILE = circleAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = siddharth.kumar.circleAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,10 +382,13 @@
 		};
 		356E6AE4203D66240020CF86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5EF6EB4ECAFEC5010C1EA72 /* Pods-circleAnimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F65GNDYW8;
 				INFOPLIST_FILE = circleAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = siddharth.kumar.circleAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
